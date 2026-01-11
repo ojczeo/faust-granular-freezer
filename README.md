@@ -1,5 +1,7 @@
 # Granular Freeze Processor in FaustDSP
 
+![Granular Freeze Processor](image.png)
+
 Granular freeze effect built in Faust. Incoming audio is written into a 10-second circular buffer while **Update Freeze** is held; releasing freezes the content and grains read from it. Two banks of up to 16 voices window each grain with a sine envelope. Mono input feeds the buffer; Bank A goes to left, Bank B (rate-shifted) to right for stereo width.
 
 ## Controls
